@@ -3,12 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-import zipfile
 
-#ekstrak dataset
-zip = zipfile.ZipFile('air.zip','r')
-zip.extractall('air')
-zip.close()
 
 #membaca dataset Guanyuan dan Nongzhanguan
 guanyuan_dir = 'air/AirDataset/Guanyuan.csv'
