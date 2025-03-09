@@ -21,4 +21,5 @@ streamlit run dashboard.py
 ```
 ## Link to Streamlit deploy
 ```
+https://rizkymlana-analytics-data-project-dashboard-ewjipr.streamlit.app/
 ```
